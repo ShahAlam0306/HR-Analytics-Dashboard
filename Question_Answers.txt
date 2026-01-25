@@ -1,0 +1,101 @@
+
+HR Analytics Dashboard – Questions, Answers & Actions
+____________________________________________________________
+1) Question: What is the overall status of the workforce?
+Answer:
+• Total Employees: 1,470
+• Active Employees: 1,233
+• Attrition Count: 237
+• Attrition Rate: 16.12%
+• Average Age: 37 years
+Action Needed:
+• Monitor attrition trends monthly.
+• Maintain employee engagement programs to keep attrition under control.
+
+2) Question: Which department has the highest attrition?
+Answer:
+• The Sales department has the highest attrition with 133 employees (56%) leaving.
+• R&D follows with 92 exits (38.8%), and HR has only 12 exits (5%).
+Action Needed:
+• Conduct pulse surveys within Sales.
+• Review Sales workload, targets, compensation plans, and work pressure.
+• Improve onboarding & mentoring for Sales employees.
+
+3) Question: Which age group has the highest number of employees?
+Answer:
+• Maximum employees belong to the 30–35 age group.
+• The workforce is primarily young to mid-career.
+Action Needed:
+• Offer career development, training, and leadership programs.
+• Provide skill-upgradation opportunities to reduce dissatisfaction.
+
+4) Question: Which age group has the highest attrition?
+Answer:
+• The 25–34 age group has the highest attrition with 112 exits and an attrition rate of
+18.14%.
+• This group is crucial because they form a major portion of the workforce.
+Action Needed:
+• Increase internal promotions, recognition programs, and clear growth pathways.
+• Conduct one-on-one feedback interviews for employees in this age group.
+
+5) Question: What does gender-wise attrition indicate?
+Answer:
+• Male attrition: 150
+• Female attrition: 87
+• More males are leaving the company.
+Action Needed:
+• Evaluate if certain male-dominated roles (e.g., Sales) have higher pressure.
+• Improve work–life balance policies and flexible work options.
+
+6) Question: Which education background has the highest attrition?
+Answer:
+• Highest attrition: Life Sciences (89) and Medical (63).
+• Lowest attrition: HR background (7).
+Action Needed:
+• Analyze job satisfaction and job-role match for employees with Life Sciences/Medical
+degrees.
+• Provide better role alignment and career growth in specialized fields.
+
+7) Question: How satisfied are employees across different job roles?
+Answer:
+• Roles like Sales Executive and Laboratory Technician show good ratings (mostly 3 and 4)
+• HR and some managerial roles show mixed or lower satisfaction.
+Action Needed:
+• Conduct job-role-specific satisfaction surveys.
+• Redesign job responsibilities or provide training where satisfaction is low.
+• Improve manager–employee communication channels.
+
+8) Question: What is the employee distribution across gender and age groups?
+Answer:
+• Under 25: Attrition 8.44%
+• 25–34: Highest attrition (18.14%)
+• 35–44: Moderate (15.61%)
+• 45–54: Low (3.80%)
+• 55+: Lowest (1.27%)
+Action Needed:
+• Focus retention strategies on employees aged 25–34.
+• Provide senior employees with stability programs and pre-retirement planning.
+
+9)Question: Is the attrition rate alarming?
+Answer:
+• At 16.12%, it is slightly higher than recommended for most industries (10–12%).
+Action Needed:
+• Implement early warning systems using HR analytics (performance + attendance +
+engagement scores).
+• Strengthen manager training for high-attrition departments.
+
+10) Question: Which segments contribute the most to overall attrition?
+Answer:
+• Department: Sales
+• Age Group: 25–34
+• Education: Life Sciences & Medical
+• Gender: Male
+Action Needed:
+• Create targeted retention programs focusing on these high-risk groups.
+• Improve onboarding, mentoring, career pathing, and compensation benchmarking.
+
+FINAL SUMMARY
+The dashboard reveals that attrition is concentrated in the Sales department, among
+employees aged 25–34, especially males with Life Sciences and Medical
+backgrounds. Addressing workload, role clarity, career growth, and job satisfaction in
+these areas can significantly reduce attrition and improve overall workforce stability.
