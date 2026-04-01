@@ -78,7 +78,8 @@ These KPIs provide a high-level snapshot of workforce health and attrition statu
 
 ## 📸 Dashboard Overview
 
-(Add your dashboard screenshot here)
+<img width="897" height="505" alt="image" src="https://github.com/user-attachments/assets/7765cad3-3a9e-4942-aff7-cf459f4d0720" />
+
 
 ---
 
