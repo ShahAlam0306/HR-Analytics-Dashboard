@@ -1,120 +1,92 @@
-# 🌦️ Weather & Air Quality Dashboard (Power BI)
+HR Analytics Dashboard – Power BI Project
+📊 Project Overview
 
-## 📌 Overview
+This project presents an interactive HR Analytics Dashboard built using Power BI to analyze employee attrition and workforce trends.
 
-This project is an interactive **Weather and Air Quality Dashboard** built using Power BI and Weather API data. It provides real-time insights into temperature, air pollution levels, and weather forecasts in a visually intuitive format.
+The dashboard focuses on identifying key attrition drivers, understanding workforce demographics, and enabling data-driven HR decision-making.
 
----
+🎯 Objectives
+Analyze overall employee workforce status
+Measure and monitor attrition rate
+Identify high-risk departments and segments
+Understand attrition trends across age groups and gender
+Evaluate the impact of education and job satisfaction
+Support HR retention strategies
 
-## 🎯 Objectives
+📌 Key KPIs
+Total Employees: 1,470
+Active Employees: 1,233
+Attrition Count: 237
+Attrition Rate: 16.1%
+Average Age: 37
 
-* Analyze real-time weather data
-* Monitor Air Quality Index (AQI) metrics
-* Build an interactive and user-friendly dashboard
-* Apply data modeling and DAX concepts
+These KPIs provide a high-level overview of workforce health.
 
----
+📈 Dashboard Features
+🔹 Attrition Analysis
+Department-wise attrition breakdown
+Attrition trends by age group
+Gender-based attrition comparison
+🔹 Workforce Insights
+Employee distribution across age groups
+Education field-wise attrition
+Job satisfaction analysis by job role
+🔹 Interactive Elements
+Slicers for:
+Department
+Gender
+Age Group
+Education Field
+Dynamic filtering across all visuals
 
-## 📊 Dashboard Features
+🔍 Key Insights
+Sales department shows the highest attrition
+Employees aged 25–34 have the highest attrition rate
+Male employees show higher attrition than females
+Employees from Life Sciences and Medical backgrounds contribute more to attrition
+Lower job satisfaction is associated with higher attrition
 
-### 🌡️ Weather Insights
+🛠 Tools & Technologies
+Power BI Desktop
+DAX (Data Analysis Expressions)
+Data Modeling
+Data Visualization
+Dashboard Overview :
+<img width="897" height="505" alt="image" src="https://github.com/user-attachments/assets/34b7c2b4-c0c9-44bd-81bb-859911db006e" />
 
-* Current temperature and condition
-* 7-day temperature forecast (line chart)
-* Sunrise & sunset timings
+📂 Project Structure
+HR-Analytics-Dashboard-PowerBI/
+│
+├── Dashboard/
+│   └── HR_Analytics_Dashboard.pbix
+│
+├── Dataset/
+│   └── HR_Data_Set.xlsx
+│
+├── Screenshots/
+│   ├── dashboard_overview.png
+│   └── attrition_analysis.png
+│
+└── README.md
 
-### 🌧️ Environmental Metrics
+🚀 How to Use
+Download the .pbix file
+Open it using Power BI Desktop
+Use slicers to filter by department, gender, age group, and education
+Explore insights across visuals
+💡 Business Value
 
-* Rain probability analysis
-* Wind speed, humidity, pressure, UV index
+This dashboard helps HR teams:
 
-### 🌫️ Air Quality Analysis
+Identify high-risk attrition segments
+Improve employee retention strategies
+Support workforce planning decisions
+Communicate insights effectively to stakeholders
+🔗 Related Work
 
-* PM10, PM2.5, NO2, SO2, CO, O3 levels
-* Color-coded indicators for pollution severity
+An Exploratory Data Analysis (EDA) of the same dataset was performed using Python to understand underlying patterns and validate insights used in this dashboard.
 
----
+👤 Author
 
-## 🛠️ Tools & Technologies
-
-* **Power BI**
-* **DAX (Data Analysis Expressions)**
-* **Weather API**
-* **Data Modeling (Star Schema)**
-
----
-
-## 🧠 Data Model
-
-* Fact Tables:
-
-  * Forecast_day
-  * Forecast_hour
-  * Current
-* Dimension Table:
-
-  * Location
-<img width="708" height="482" alt="image" src="https://github.com/user-attachments/assets/8d1c5587-6ae0-4026-901f-ba93235591a3" />
-
-Relationships are built using location and date keys to ensure proper filtering and analysis.
-
----
-
-## 📈 Key Insights
-
-* AQI levels can be tracked dynamically using DAX measures
-* Forecast trends help in identifying temperature patterns
-* Pollution indicators highlight environmental risks visually
-
----
-
-## 📸 Dashboard Preview
-
-<img width="905" height="509" alt="image" src="https://github.com/user-attachments/assets/46c07d0a-9fd9-4779-8421-35cd0b99bbd3" />
-
-
----
-
-## 📂 Project Structure
-
-```bash
-powerbi-weather-dashboard/
-│── Weather_Dashboard.pbix
-│── README.md
-│── screenshots/
-│     ├── dashboard.png
-│     ├── data_model.png
-│     ├── measures.png
-```
-
----
-
-## 🚀 How to Use
-
-1. Download the `.pbix` file
-2. Open it in **Power BI Desktop**
-3. Refresh data (if API connection is active)
-
----
-
-## 💡 Future Improvements
-
-* Add real-time API refresh using Power BI Service
-* Implement alert system for high AQI levels
-* Enhance drill-through and tooltip interactions
-
----
-
-## 👤 Author
-
-**Shahalam Rayeen**
-Aspiring Data Analyst | Power BI Enthusiast
-
-📌 LinkedIn:www.linkedin.com/in/shahalam-rayeen-104435319
-📌 GitHub: https://github.com/ShahAlam0306
-
----
-
-## ⭐ If you like this project
-
-Give it a ⭐ on GitHub and share your feedback!
+Rayeen Shakib
+Aspiring Data Analyst | Power BI | Python | SQL
