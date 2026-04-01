@@ -1,106 +1,118 @@
-📊 Project Title
-HR Analytics Dashboard – Attrition & Workforce Analysis (Power BI)
-![img](https://github.com/user-attachments/assets/2535ed43-076d-46c3-9153-628e06d62de3)
+# 🌦️ Weather & Air Quality Dashboard (Power BI)
 
-🔍 Project Overview
+## 📌 Overview
 
-This project focuses on analyzing employee attrition and workforce demographics using HR data. The objective was to identify high-risk attrition segments, understand workforce composition, and provide data-driven insights that can help HR teams improve employee retention and engagement strategies.
+This project is an interactive **Weather and Air Quality Dashboard** built using Power BI and Weather API data. It provides real-time insights into temperature, air pollution levels, and weather forecasts in a visually intuitive format.
 
-The dashboard was designed to move beyond simple reporting and support analytical decision-making for HR stakeholders.
+---
 
-🎯 Business Objectives
+## 🎯 Objectives
 
-Understand the overall workforce status
+* Analyze real-time weather data
+* Monitor Air Quality Index (AQI) metrics
+* Build an interactive and user-friendly dashboard
+* Apply data modeling and DAX concepts
 
-Identify departments with high attrition
+---
 
-Analyze attrition patterns across age groups and gender
+## 📊 Dashboard Features
 
-Evaluate education background and job satisfaction
+### 🌡️ Weather Insights
 
-Highlight high-risk employee segments
+* Current temperature and condition
+* 7-day temperature forecast (line chart)
+* Sunrise & sunset timings
 
-Support targeted HR interventions
+### 🌧️ Environmental Metrics
 
-📌 Key KPIs Analyzed
+* Rain probability analysis
+* Wind speed, humidity, pressure, UV index
 
-Total Employees
+### 🌫️ Air Quality Analysis
 
-Active Employees
+* PM10, PM2.5, NO2, SO2, CO, O3 levels
+* Color-coded indicators for pollution severity
 
-Attrition Count
+---
 
-Attrition Rate (%)
+## 🛠️ Tools & Technologies
 
-Average Employee Age
+* **Power BI**
+* **DAX (Data Analysis Expressions)**
+* **Weather API**
+* **Data Modeling (Star Schema)**
 
-These KPIs provide a high-level executive snapshot of the organization.
-![kpi](https://github.com/user-attachments/assets/95984abc-f2b2-49cf-87ac-5d5cc6b5965d)
+---
 
+## 🧠 Data Model
 
-📈 Key Visual Analysis
+* Fact Tables:
 
-Department-wise Attrition: Identifies departments contributing most to employee exits
+  * Forecast_day
+  * Forecast_hour
+  * Current
+* Dimension Table:
 
-Employee Distribution by Age Group: Shows workforce concentration across age bands
+  * Location
 
-Education Field-wise Attrition: Highlights educational backgrounds with higher attrition
+Relationships are built using location and date keys to ensure proper filtering and analysis.
 
-Job Satisfaction Matrix: Evaluates satisfaction levels across job roles
+---
 
-Attrition Rate by Age Group & Gender (Line Chart): Reveals attrition trends and gender differences across age progression
+## 📈 Key Insights
 
-🔎 Key Insights Generated
+* AQI levels can be tracked dynamically using DAX measures
+* Forecast trends help in identifying temperature patterns
+* Pollution indicators highlight environmental risks visually
 
-Attrition is highest in the Sales department
+---
 
-Employees aged 25–34 show the highest attrition rate
+## 📸 Dashboard Preview
 
-Male employees contribute more to attrition than female employees
+(Add your dashboard screenshot here)
 
-Employees with Life Sciences and Medical backgrounds have higher attrition
+---
 
-Certain job roles show lower satisfaction levels, indicating potential risk areas
+## 📂 Project Structure
 
-🛠 Tools & Skills Used
+```bash
+powerbi-weather-dashboard/
+│── Weather_Dashboard.pbix
+│── README.md
+│── screenshots/
+│     ├── dashboard.png
+│     ├── data_model.png
+│     ├── measures.png
+```
 
-Power BI Desktop
+---
 
-DAX (measures, ratios, conditional logic)
+## 🚀 How to Use
 
-Data Modeling & Sorting Logic
+1. Download the `.pbix` file
+2. Open it in **Power BI Desktop**
+3. Refresh data (if API connection is active)
 
-Data Visualization & Dashboard Design
+---
 
-HR Analytics & Business Interpretation
+## 💡 Future Improvements
 
-💡 Advanced Elements Included
+* Add real-time API refresh using Power BI Service
+* Implement alert system for high AQI levels
+* Enhance drill-through and tooltip interactions
 
-Logical KPI structuring and measure organization
+---
 
-Age group sorting using numeric logic
+## 👤 Author
 
-Trend analysis using line charts
+**Shahalam Rayeen**
+Aspiring Data Analyst | Power BI Enthusiast
 
-Business-focused storytelling with insights
+📌 LinkedIn:www.linkedin.com/in/shahalam-rayeen-104435319
+📌 GitHub: https://github.com/ShahAlam0306
 
-📢 Business Value
+---
 
-The dashboard enables HR teams to:
+## ⭐ If you like this project
 
-Detect early warning signs of high attrition
-
-Focus retention strategies on high-risk groups
-
-Improve workforce planning and engagement initiatives
-
-Communicate insights clearly to management and leadership.
-🚀 How to Use
-
-Download the .pbix file
-
-Open it using Power BI Desktop
-
-Interact with slicers (Department, Gender, Age Group, Education)
-
-Explore insights and trends across visuals
+Give it a ⭐ on GitHub and share your feedback!
